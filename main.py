@@ -15,7 +15,7 @@ sheet = client.open("economy").worksheet("aug")
 def append_to_sheet(income_outcome, category, amount, date):
     sheet.append_row([income_outcome, category, amount, date])
 def parse_message(message):
-    return ["hii"]
+    return ["hii","ho","dfg","gfx"]
 
 
 
